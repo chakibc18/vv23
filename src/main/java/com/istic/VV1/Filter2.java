@@ -1,0 +1,330 @@
+/*
+ if(nX instanceof X_CtArrayAccessImpl) {
+X_CtArrayAccessImpl n=(X_CtArrayAccessImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtArrayReadImpl) {
+X_CtArrayReadImpl n=(X_CtArrayReadImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtArrayTypeReferenceImpl) {
+X_CtArrayTypeReferenceImpl n=(X_CtArrayTypeReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtArrayWriteImpl) {
+X_CtArrayWriteImpl n=(X_CtArrayWriteImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtAssertImpl) {
+X_CtAssertImpl n=(X_CtAssertImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtAssignmentImpl) {
+X_CtAssignmentImpl n=(X_CtAssignmentImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtBinaryOperatorImpl) {
+X_CtBinaryOperatorImpl n=(X_CtBinaryOperatorImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtBlockImpl) {
+X_CtBlockImpl n=(X_CtBlockImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtBreakImpl) {
+X_CtBreakImpl n=(X_CtBreakImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCaseImpl) {
+X_CtCaseImpl n=(X_CtCaseImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCatchImpl) {
+X_CtCatchImpl n=(X_CtCatchImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCatchVariableImpl) {
+X_CtCatchVariableImpl n=(X_CtCatchVariableImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCatchVariableReferenceImpl) {
+X_CtCatchVariableReferenceImpl n=(X_CtCatchVariableReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtClassImpl) {
+X_CtClassImpl n=(X_CtClassImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCodeElementImpl) {
+X_CtCodeElementImpl n=(X_CtCodeElementImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCodeSnippetExpressionImpl) {
+X_CtCodeSnippetExpressionImpl n=(X_CtCodeSnippetExpressionImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCodeSnippetStatementImpl) {
+X_CtCodeSnippetStatementImpl n=(X_CtCodeSnippetStatementImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtCommentImpl) {
+X_CtCommentImpl n=(X_CtCommentImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtConditionalImpl) {
+X_CtConditionalImpl n=(X_CtConditionalImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtConstructorCallImpl) {
+X_CtConstructorCallImpl n=(X_CtConstructorCallImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtConstructorImpl) {
+X_CtConstructorImpl n=(X_CtConstructorImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtContinueImpl) {
+X_CtContinueImpl n=(X_CtContinueImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtDoImpl) {
+X_CtDoImpl n=(X_CtDoImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtElementImpl) {
+X_CtElementImpl n=(X_CtElementImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtEnumImpl) {
+X_CtEnumImpl n=(X_CtEnumImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtEnumValueImpl) {
+X_CtEnumValueImpl n=(X_CtEnumValueImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtExecutableImpl) {
+X_CtExecutableImpl n=(X_CtExecutableImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtExecutableReferenceExpressionImpl) {
+X_CtExecutableReferenceExpressionImpl n=(X_CtExecutableReferenceExpressionImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtExecutableReferenceImpl) {
+X_CtExecutableReferenceImpl n=(X_CtExecutableReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtExpressionImpl) {
+X_CtExpressionImpl n=(X_CtExpressionImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtFieldAccessImpl) {
+X_CtFieldAccessImpl n=(X_CtFieldAccessImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtFieldImpl) {
+X_CtFieldImpl n=(X_CtFieldImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtFieldReadImpl) {
+X_CtFieldReadImpl n=(X_CtFieldReadImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtFieldReferenceImpl) {
+X_CtFieldReferenceImpl n=(X_CtFieldReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtFieldWriteImpl) {
+X_CtFieldWriteImpl n=(X_CtFieldWriteImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtForEachImpl) {
+X_CtForEachImpl n=(X_CtForEachImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtForImpl) {
+X_CtForImpl n=(X_CtForImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtIfImpl) {
+X_CtIfImpl n=(X_CtIfImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtInterfaceImpl) {
+X_CtInterfaceImpl n=(X_CtInterfaceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtIntersectionTypeReferenceImpl) {
+X_CtIntersectionTypeReferenceImpl n=(X_CtIntersectionTypeReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtInvocationImpl) {
+X_CtInvocationImpl n=(X_CtInvocationImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtJavaDocImpl) {
+X_CtJavaDocImpl n=(X_CtJavaDocImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtJavaDocTagImpl) {
+X_CtJavaDocTagImpl n=(X_CtJavaDocTagImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtLambdaImpl) {
+X_CtLambdaImpl n=(X_CtLambdaImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtLiteralImpl) {
+X_CtLiteralImpl n=(X_CtLiteralImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtLocalVariableImpl) {
+X_CtLocalVariableImpl n=(X_CtLocalVariableImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtLocalVariableReferenceImpl) {
+X_CtLocalVariableReferenceImpl n=(X_CtLocalVariableReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtLoopImpl) {
+X_CtLoopImpl n=(X_CtLoopImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtMethodImpl) {
+X_CtMethodImpl n=(X_CtMethodImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtNamedElementImpl) {
+X_CtNamedElementImpl n=(X_CtNamedElementImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtNewArrayImpl) {
+X_CtNewArrayImpl n=(X_CtNewArrayImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtNewClassImpl) {
+X_CtNewClassImpl n=(X_CtNewClassImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtOperatorAssignmentImpl) {
+X_CtOperatorAssignmentImpl n=(X_CtOperatorAssignmentImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtPackageImpl) {
+X_CtPackageImpl n=(X_CtPackageImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtPackageReferenceImpl) {
+X_CtPackageReferenceImpl n=(X_CtPackageReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtParameterImpl) {
+X_CtParameterImpl n=(X_CtParameterImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtParameterReferenceImpl) {
+X_CtParameterReferenceImpl n=(X_CtParameterReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtReferenceImpl) {
+X_CtReferenceImpl n=(X_CtReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtReturnImpl) {
+X_CtReturnImpl n=(X_CtReturnImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtStatementImpl) {
+X_CtStatementImpl n=(X_CtStatementImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtStatementListImpl) {
+X_CtStatementListImpl n=(X_CtStatementListImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtSuperAccessImpl) {
+X_CtSuperAccessImpl n=(X_CtSuperAccessImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtSwitchImpl) {
+X_CtSwitchImpl n=(X_CtSwitchImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtSynchronizedImpl) {
+X_CtSynchronizedImpl n=(X_CtSynchronizedImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTargetedExpressionImpl) {
+X_CtTargetedExpressionImpl n=(X_CtTargetedExpressionImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtThisAccessImpl) {
+X_CtThisAccessImpl n=(X_CtThisAccessImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtThrowImpl) {
+X_CtThrowImpl n=(X_CtThrowImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTryImpl) {
+X_CtTryImpl n=(X_CtTryImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTryWithResourceImpl) {
+X_CtTryWithResourceImpl n=(X_CtTryWithResourceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTypeAccessImpl) {
+X_CtTypeAccessImpl n=(X_CtTypeAccessImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTypeImpl) {
+X_CtTypeImpl n=(X_CtTypeImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTypeParameterImpl) {
+X_CtTypeParameterImpl n=(X_CtTypeParameterImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTypeParameterReferenceImpl) {
+X_CtTypeParameterReferenceImpl n=(X_CtTypeParameterReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtTypeReferenceImpl) {
+X_CtTypeReferenceImpl n=(X_CtTypeReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtUnaryOperatorImpl) {
+X_CtUnaryOperatorImpl n=(X_CtUnaryOperatorImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtUnboundVariableReferenceImpl) {
+X_CtUnboundVariableReferenceImpl n=(X_CtUnboundVariableReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtVariableAccessImpl) {
+X_CtVariableAccessImpl n=(X_CtVariableAccessImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtVariableReadImpl) {
+X_CtVariableReadImpl n=(X_CtVariableReadImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtVariableReferenceImpl) {
+X_CtVariableReferenceImpl n=(X_CtVariableReferenceImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtVariableWriteImpl) {
+X_CtVariableWriteImpl n=(X_CtVariableWriteImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtWhileImpl) {
+X_CtWhileImpl n=(X_CtWhileImpl) nX;
+return  ;
+}
+ if(nX instanceof X_CtWildcardReferenceImpl) {
+X_CtWildcardReferenceImpl n=(X_CtWildcardReferenceImpl) nX;
+return  ;
+}
+*/
